@@ -20,7 +20,10 @@ date_format:
 # Language
 lan: "es"
 
+#Identificador de Google analytics
+gaaccount: UA-109907230-1
 paginate: 10
+
 
 highlighter: rouge
 markdown: kramdown
