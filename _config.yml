@@ -4,7 +4,7 @@ name: Xixia
 description: Welcome to Xixia！
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://github.io/jlmolero/blog
+url: https://jlmolero.github.io/blog
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
@@ -23,7 +23,8 @@ lan: "es"
 #Identificador de Google analytics
 gaaccount: UA-109907230-1
 paginate: 10
-
+comments: true
+disqus: jlmolero
 
 highlighter: rouge
 markdown: kramdown
