@@ -1,30 +1,35 @@
 {% assign trans = site.data.values[site.lan] %}
 <h1>{{ trans.socialnetworks }}</h1>
 
-<ul class="list-unstyled list-inline">
+<ul class="list-unstyled">
   {% if site.twitter %}
-  <li><i class="icon-twitter"></i></li>
-  <a href="https://twitter.com/{{ site.twitter}}" target="_blank"> {{site.twitter}}</a>
+  <li><i class="icon-twitter"></i>
+    <a href="https://twitter.com/{{ site.twitter}}" target="_blank"> {{site.twitter}}</a>
+  </li>
   {% endif %}
 
   {% if site.instagram %}
-  <li><i class="icon-instagram"></i></li>
-  <a href="https://instagram.com/{{ site.instagram}}" target="_blank"> {{site.instagram}}</a>
+  <li><i class="icon-instagram"></i>
+    <a href="https://instagram.com/{{ site.instagram}}" target="_blank"> {{site.instagram}}</a>
+  </li>
   {% endif %}
 
   {% if site.facebook %}
-  <li><i class="icon-facebook-official"></i></li>
-  <a href="https://facebook.com/{{ site.facebook}}" target="_blank"> {{site.facebook}}</a>
+  <li><i class="icon-facebook-official"></i>
+    <a href="https://facebook.com/{{ site.facebook}}" target="_blank"> {{site.facebook}}</a>
+  </li>
   {% endif %}
 
   {% if site.linkedin %}
-  <li><i class="icon-twitter"></i></li>
-  <a href="https://linkedin.com/{{ site.linkedin}}" target="_blank"> {{site.linkedin}}</a>
+  <li><i class="icon-twitter"></i>
+    <a href="https://linkedin.com/{{ site.linkedin}}" target="_blank"> {{site.linkedin}}</a>
+  </li>
   {% endif %}
 
   {% if site.email %}
-  <li><i class="icon-envelope"></i></li>
-  <a href="mail-to{{ site.email}}" target="_blank"> {{site.email}}</a>
+  <li><i class="icon-envelope"></i>
+    <a href="mailto:{{ site.email}}" target="_blank"> {{site.email}}</a>
+  </li>
   {% endif %}
 
 
