@@ -2,8 +2,32 @@
 <h1>{{ trans.socialnetworks }}</h1>
 
 <ul class="list-unstyled list-inline">
+  {% if site.twitter %}
   <li><i class="icon-twitter"></i></li>
-  <a href="https://twitter.com/jlmolero">jlmolero </a>
+  <a href="https://twitter.com/{{ site.twitter}}" target="_blank"> {{site.twitter}}</a>
+  {% endif %}
+
+  {% if site.instagram %}
+  <li><i class="icon-instagram"></i></li>
+  <a href="https://instagram.com/{{ site.instagram}}" target="_blank"> {{site.instagram}}</a>
+  {% endif %}
+
+  {% if site.facebook %}
+  <li><i class="icon-facebook-official"></i></li>
+  <a href="https://facebook.com/{{ site.facebook}}" target="_blank"> {{site.facebook}}</a>
+  {% endif %}
+
+  {% if site.linkedin %}
+  <li><i class="icon-twitter"></i></li>
+  <a href="https://linkedin.com/{{ site.linkedin}}" target="_blank"> {{site.linkedin}}</a>
+  {% endif %}
+
+  {% if site.email %}
+  <li><i class="icon-envelope"></i></li>
+  <a href="mail-to{{ site.email}}" target="_blank"> {{site.email}}</a>
+  {% endif %}
+
+
 
 </ul>
 

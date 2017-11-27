@@ -26,6 +26,9 @@ paginate: 10
 comments: true
 disqus: jlmolero
 
+#Redes sociales
+twitter: jlmolero
+
 highlighter: rouge
 markdown: kramdown
 gems: ['jekyll-paginate']
