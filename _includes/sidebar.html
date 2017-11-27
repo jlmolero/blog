@@ -15,6 +15,10 @@
     </div>
 </div>
 
+<div class="sidebar well">
+    {% include social-networks.html %}
+</div>
+
 {% if site.data.tops.size > 0 %}
 <div class="sidebar well">
     <h1>{{ trans.top_posts }}</h1>
@@ -30,6 +34,7 @@
 </div>
 {% endif %}
 
+<!--
 <div class="sidebar well">
     <h1>{{ trans.recent_posts }}</h1>
     <ul>
@@ -38,10 +43,8 @@
         {% endfor %}
     </ul>
 </div>
+-->
 
-<div class="sidebar well">
-    {% include social-networks.html %}
-</div>
 
 <div class="sidebar well">
     {% include links-list.html %}
