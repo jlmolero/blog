@@ -1,5 +1,5 @@
 {% assign trans = site.data.values[site.lan] %}
-<h1>{{ trans.socialnetworks }}</h1>
+<h1>{{ trans.contact_me }}</h1>
 
 <ul class="list-unstyled">
   {% if site.twitter %}
@@ -28,7 +28,7 @@
 
   {% if site.email %}
   <li><i class="icon-envelope"></i>
-    <a href="mailto:{{ site.email}}" target="_blank"> {{site.email}}</a>
+    <a href="mailto{{ site.email}}" target="_blank"> {{site.email}}</a>
   </li>
   {% endif %}
 
