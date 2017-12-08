@@ -1,0 +1,35 @@
+<!-- Metadatos para que se creen las vistar previas en facebookç-->
+<!-- nombre del sitio-->
+<meta content="{{ site.title }}" property="og:site_name">
+
+<!-- Titulo y tipo del post o del sitio en caso de que la pagina no tenga title-->
+{% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="{{ site.title }}" property="og:title">
+  <meta content="website" property="og:type">
+{% endif %}
+
+<!-- Descripcion del post -->
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+
+<!-- URL de la pagina-->
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+
+<!-- Fecha de publicacion y enlace al acerca de mi-->
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+
+<!-- Imagen para mostrar -->
+{% if page.img %}
+  <meta content="{{ page.image }}" property="og:image">
+{% endif %}
