@@ -5,6 +5,8 @@ date: "2017-11-23 16:55:40 -0400"
 categories: importante
 tags: pruebas fotos
 description: Evidentemente la prueba con imgur fue un fracaso, veamos con blogspot
+author: José Luis Molero
+image: https://1.bp.blogspot.com/-yMPTPmCCUcw/Whc0_eHmhSI/AAAAAAAAN3I/_lPS9xvjt5cN7MkI1F9LDveBgEkqOE8sgCLcBGAs/s1600/EstacionServicioShell.jpg
 ---
 
 Evidentemente la prueba con imgur fue un fracaso, veamos con blogspot

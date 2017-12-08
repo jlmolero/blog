@@ -1,0 +1,20 @@
+<!--- código para implementación de twitter cards de modo que haya una viste previa
+del articulo cuando lo comparta en twitter -->
+<meta name="twitter:site"    content="@{{ site.twitter }}">
+<meta name="twitter:creator" content="@{{ page.author }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+<!-- Se agrega la descripcion del post, si no existe, se agrega la descripcion del sitio -->
+{% if page.description %}
+<meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.title_image }}">
+{% endif %}
