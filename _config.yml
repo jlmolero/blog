@@ -13,7 +13,7 @@ url: https://jlmolero.github.io/blog
 baseurl: '/blog'
 ## default date_format
 date_format:
-  title: "%B-%-d-%Y"
+  title: "%d de %B de %Y"
   archive: "%b"
   categories: "%b-%Y"
   tag: "%b-%Y"
