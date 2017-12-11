@@ -35,4 +35,7 @@ highlighter: rouge
 markdown: kramdown
 gems: ['jekyll-paginate']
 
+plugins:
+  -jekyll-sitemap
+
 exclude: ['README.md', 'LICENSE', "*.bak"]
