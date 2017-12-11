@@ -33,7 +33,10 @@ email: jlmolero@gmail.com
 
 highlighter: rouge
 markdown: kramdown
-gems: ['jekyll-paginate']
+# gems: ['jekyll-paginate']
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 
 plugins:
   - jekyll-sitemap
